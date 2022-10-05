@@ -16,7 +16,7 @@ export default function MainPage() {
               {' '}
               <br />
               {' '}
-              Reminder
+              Scheduler
             </h1>
             <div className="description">
               Easily host and share events with your friends across any social
