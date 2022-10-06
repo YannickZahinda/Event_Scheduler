@@ -1,5 +1,5 @@
 import "./App.css";
-import MainPage from "./MainPage/main.Page";
+import MainPage from "./MainPage/main.Page"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { CreateEvent } from "./addEventPath";
 

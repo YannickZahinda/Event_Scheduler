@@ -4,12 +4,12 @@ import { EventsData } from '../FakeEventsData';
 export const eventsSlice = createSlice({
     name: 'events',
     initialState: {value: EventsData},
-    reducer: {
+    reducers: {
         addEvent: (state, action) => {
             state.value.push(action.payload)
         }
     }
 })
 
-export const { addEvent } = eventsSlice.reducer;
+export const { addEvent } = eventsSlice.actions;
 export default eventsSlice.reducer;
